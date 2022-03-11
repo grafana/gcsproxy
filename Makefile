@@ -24,3 +24,7 @@ simplify:
 
 clean:
 	go clean -i $(GOPACKAGES_NOVENDOR)
+
+.PHONY: proxy-build
+proxy-build:
+	docker build . -t grafana/gcsproxy
