@@ -1,4 +1,4 @@
-module github.com/mike-sirs/gcsproxy
+module github.com/grafana/gcsproxy
 
 go 1.17
 
