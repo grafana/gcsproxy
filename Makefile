@@ -27,4 +27,4 @@ clean:
 
 .PHONY: proxy-build
 proxy-build:
-	docker build . -t grafana/gcsproxy
+	docker build . -t grafana/gcsproxy:$(shell git rev-parse --short HEAD)
